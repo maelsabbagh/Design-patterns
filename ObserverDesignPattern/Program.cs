@@ -4,10 +4,12 @@ using ObserverDesignPattern.Observer;
 
 void printTempForDevices(List<IDisplay> displayDevices)
 {
-    foreach(var device in displayDevices)
+    Console.WriteLine("Displaying temperatures from display devices:");
+    foreach (var device in displayDevices)
     {
         device.Display();
     }
+    Console.WriteLine("********************************************");
 }
 
 WeatherStation weatherStation = new WeatherStation();
@@ -34,4 +36,10 @@ printTempForDevices(displayDevices);
 
 
 weatherStation.setTemperature(32.5);
+printTempForDevices(displayDevices);
+
+
+weatherStation.remove(kitchenWindow); // kitchen window will not be updated anymore
+weatherStation.setTemperature(20.7);
+
 printTempForDevices(displayDevices);
