@@ -3,3 +3,7 @@
 
 ## Example: Weather station UML
 ![Weather station UML](images/WeatherStation_ObserverPatternUML.png)
+
+
+notify in IObservable will call update in IObserver
+and the concrete class of Iobserver has instance of the concrete class if IObservable so it can read the updates
