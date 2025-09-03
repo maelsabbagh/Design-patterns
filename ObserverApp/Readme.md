@@ -6,8 +6,8 @@ subscribers can subscribe to product updates and offer updates
 ## Observer pattern UML
 ![UML Diagram](images/ObserverPatternUML.png)
 
-## Example: Weather station UML
-![Weather station UML](images/NotificationSystemUML.png)
+## UML solution: Online MarketPlace Notification system UML
+![Notification system UML](images/NotificationSystemUML.png)
 
 
 
