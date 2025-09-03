@@ -6,4 +6,4 @@
 
 
 notify in IObservable will call update in IObserver
-and the concrete class of Iobserver has instance of the concrete class if IObservable so it can read the updates
+and the concrete class of Iobserver has instance of the concrete class of IObservable so it can read the updates
