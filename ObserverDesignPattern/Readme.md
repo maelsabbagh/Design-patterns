@@ -1,5 +1,5 @@
-## Screenshot 1
+## Observer pattern UML
 ![UML Diagram](images/ObserverPatternUML.png)
 
-## Screenshot 2
+## Example: Weather station UML
 ![Weather station UML](images/WeatherStation_ObserverPatternUML.png)
