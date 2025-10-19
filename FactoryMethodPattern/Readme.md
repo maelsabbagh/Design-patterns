@@ -1,4 +1,4 @@
-## Build A payment APP using factory patterns
+## Build A payment APP using factory pattern
 
 We build a factory that is responsible for providing the suitable payment method type
 
